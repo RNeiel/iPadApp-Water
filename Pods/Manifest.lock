@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Charts (2.2.5):
+    - Charts/Core (= 2.2.5)
+  - Charts/Core (2.2.5)
+  - DropDown (1.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - Charts
+  - DropDown
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Charts: b48fcc8d7190de910ff9e9748f5360c8ea7856e5
+  DropDown: 335df9e9547e97a861a60aed8448821e239d3513
+
+PODFILE CHECKSUM: e703d9829e549c348a41daf5169e30d7b3d98741
+
+COCOAPODS: 1.0.1

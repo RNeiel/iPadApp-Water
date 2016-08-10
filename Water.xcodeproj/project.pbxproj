@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F93B9A91D2A4E6000C768D1 /* PressureChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F93B9A81D2A4E6000C768D1 /* PressureChartViewController.swift */; };
+		0F93B9AB1D2A506E00C768D1 /* QualityChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F93B9AA1D2A506E00C768D1 /* QualityChartViewController.swift */; };
+		0FE0DE761D269CDC0041F6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DE751D269CDC0041F6BB /* AppDelegate.swift */; };
+		0FE0DE781D269CDC0041F6BB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DE771D269CDC0041F6BB /* FirstViewController.swift */; };
+		0FE0DE7A1D269CDC0041F6BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DE791D269CDC0041F6BB /* SecondViewController.swift */; };
+		0FE0DE7D1D269CDC0041F6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE0DE7B1D269CDC0041F6BB /* Main.storyboard */; };
+		0FE0DE7F1D269CDC0041F6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE0DE7E1D269CDC0041F6BB /* Assets.xcassets */; };
+		0FE0DE821D269CDC0041F6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE0DE801D269CDC0041F6BB /* LaunchScreen.storyboard */; };
+		0FE0DE8D1D269CDD0041F6BB /* WaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DE8C1D269CDD0041F6BB /* WaterTests.swift */; };
+		0FE0DE981D269CDD0041F6BB /* WaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DE971D269CDD0041F6BB /* WaterUITests.swift */; };
+		0FE0DEB11D269F9F0041F6BB /* ConsumptionAnalysisChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEA51D269F9F0041F6BB /* ConsumptionAnalysisChartView.swift */; };
+		0FE0DEB21D269F9F0041F6BB /* ConsumptionReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEA61D269F9F0041F6BB /* ConsumptionReportViewController.swift */; };
+		0FE0DEB31D269F9F0041F6BB /* EntranceToGoliathRoute.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FE0DEA71D269F9F0041F6BB /* EntranceToGoliathRoute.plist */; };
+		0FE0DEB41D269F9F0041F6BB /* FirstViewSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEA81D269F9F0041F6BB /* FirstViewSecond.swift */; };
+		0FE0DEB51D269F9F0041F6BB /* FirstViewThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEA91D269F9F0041F6BB /* FirstViewThird.swift */; };
+		0FE0DEB61D269F9F0041F6BB /* LeakDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEAA1D269F9F0041F6BB /* LeakDetailViewController.swift */; };
+		0FE0DEB71D269F9F0041F6BB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEAB1D269F9F0041F6BB /* Location.swift */; };
+		0FE0DEB81D269F9F0041F6BB /* LocationSensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEAC1D269F9F0041F6BB /* LocationSensorViewController.swift */; };
+		0FE0DEB91D269F9F0041F6BB /* SystemHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEAD1D269F9F0041F6BB /* SystemHealthViewController.swift */; };
+		0FE0DEBA1D269F9F0041F6BB /* WaterFlowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEAE1D269F9F0041F6BB /* WaterFlowDetailsViewController.swift */; };
+		0FE0DEBB1D269F9F0041F6BB /* WaterLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEAF1D269F9F0041F6BB /* WaterLocation.swift */; };
+		0FE0DEBC1D269F9F0041F6BB /* WaterLocnDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE0DEB01D269F9F0041F6BB /* WaterLocnDetails.swift */; };
+		0FE0DEBE1D26A0EE0041F6BB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE0DEBD1D26A0EE0041F6BB /* MapKit.framework */; };
+		0FEA54C41D33BA99000AC72D /* PressureReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA54C31D33BA99000AC72D /* PressureReportViewController.swift */; };
+		2506530A1D3F4162001652CC /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250653091D3F4162001652CC /* DateViewController.swift */; };
+		253D00601D3CB9FA00809663 /* AgentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253D005F1D3CB9FA00809663 /* AgentTableViewController.swift */; };
+		253D00A91D3E05A500809663 /* HoneywellCondWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00931D3E059A00809663 /* HoneywellCondWeb-Bold.ttf */; };
+		253D00AA1D3E05A500809663 /* HoneywellCondWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00941D3E059A00809663 /* HoneywellCondWeb-BoldItalic.ttf */; };
+		253D00AB1D3E05A500809663 /* HoneywellCondWeb-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00951D3E059A00809663 /* HoneywellCondWeb-Book.ttf */; };
+		253D00AC1D3E05A500809663 /* HoneywellCondWeb-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00961D3E059A00809663 /* HoneywellCondWeb-BookItalic.ttf */; };
+		253D00AD1D3E05A500809663 /* HoneywellCondWeb-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00971D3E059A00809663 /* HoneywellCondWeb-ExtraBold.ttf */; };
+		253D00AE1D3E05A500809663 /* HoneywellCondWeb-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00981D3E059A00809663 /* HoneywellCondWeb-ExtraBoldItalic.ttf */; };
+		253D00AF1D3E05A500809663 /* HoneywellCondWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00991D3E059A00809663 /* HoneywellCondWeb-Light.ttf */; };
+		253D00B01D3E05A500809663 /* HoneywellCondWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D009A1D3E059A00809663 /* HoneywellCondWeb-LightItalic.ttf */; };
+		253D00B11D3E05A500809663 /* HoneywellCondWeb-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D009B1D3E059A00809663 /* HoneywellCondWeb-Medium.ttf */; };
+		253D00B21D3E05A500809663 /* HoneywellCondWeb-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D009C1D3E059A00809663 /* HoneywellCondWeb-MediumItalic.ttf */; };
+		253D00B31D3E05A500809663 /* HoneywellSansWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D009D1D3E059A00809663 /* HoneywellSansWeb-Black.ttf */; };
+		253D00B41D3E05A500809663 /* HoneywellSansWeb-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D009E1D3E059A00809663 /* HoneywellSansWeb-BlackItalic.ttf */; };
+		253D00B51D3E05A500809663 /* HoneywellSansWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D009F1D3E059A00809663 /* HoneywellSansWeb-Bold.ttf */; };
+		253D00B61D3E05A500809663 /* HoneywellSansWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00A01D3E059A00809663 /* HoneywellSansWeb-BoldItalic.ttf */; };
+		253D00B71D3E05A500809663 /* HoneywellSansWeb-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00A11D3E059A00809663 /* HoneywellSansWeb-Book.ttf */; };
+		253D00B81D3E05A500809663 /* HoneywellSansWeb-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00A21D3E059A00809663 /* HoneywellSansWeb-BookItalic.ttf */; };
+		253D00B91D3E05A500809663 /* HoneywellSansWeb-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00A31D3E059A00809663 /* HoneywellSansWeb-ExtraBold.ttf */; };
+		253D00BA1D3E05A500809663 /* HoneywellSansWeb-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00A41D3E059A00809663 /* HoneywellSansWeb-ExtraBoldItalic.ttf */; };
+		253D00BB1D3E05A500809663 /* HoneywellSansWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00A51D3E059A00809663 /* HoneywellSansWeb-Light.ttf */; };
+		253D00BC1D3E05A500809663 /* HoneywellSansWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00A61D3E059A00809663 /* HoneywellSansWeb-LightItalic.ttf */; };
+		253D00BD1D3E05A500809663 /* HoneywellSansWeb-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00A71D3E059A00809663 /* HoneywellSansWeb-Medium.ttf */; };
+		253D00BE1D3E05A500809663 /* HoneywellSansWeb-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253D00A81D3E059A00809663 /* HoneywellSansWeb-MediumItalic.ttf */; };
+		253D00C01D3E0A1D00809663 /* AgentStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253D00BF1D3E0A1D00809663 /* AgentStatusViewController.swift */; };
+		2543197E1D4A2A0A006E79E8 /* TicketModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2543197C1D4A2A0A006E79E8 /* TicketModel.xcdatamodeld */; };
+		254319801D4A31D9006E79E8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2543197F1D4A31D8006E79E8 /* CoreData.framework */; };
+		254319C31D530933006E79E8 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 254319C21D530933006E79E8 /* LaunchScreen.png */; };
+		254319C51D530B1D006E79E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254319C41D530B1D006E79E8 /* Images.xcassets */; };
+		256C89C01D487D8F006CC900 /* DateSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C89BF1D487D8F006CC900 /* DateSelectionViewController.swift */; };
+		73706AC81DA8F1314E9649D1 /* Pods_Water.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25712CAD7FEA1DBB92AF1C /* Pods_Water.framework */; };
+		81086F5E1D27536D00A02CDE /* NiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81086F5D1D27536D00A02CDE /* NiceButton.swift */; };
+		81FF70501D28036C006C088C /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF704F1D28036C006C088C /* LeaderBoardViewController.swift */; };
+		81FF70521D2902FB006C088C /* FlowAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF70511D2902FB006C088C /* FlowAnalysisViewController.swift */; };
+		81FF70541D29058B006C088C /* FlowRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FF70531D29058B006C088C /* FlowRate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FE0DE891D269CDD0041F6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FE0DE6A1D269CDB0041F6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FE0DE711D269CDC0041F6BB;
+			remoteInfo = Water;
+		};
+		0FE0DE941D269CDD0041F6BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FE0DE6A1D269CDB0041F6BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FE0DE711D269CDC0041F6BB;
+			remoteInfo = Water;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019A4D8880374858EF09F204 /* Pods-Water.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Water.release.xcconfig"; path = "Pods/Target Support Files/Pods-Water/Pods-Water.release.xcconfig"; sourceTree = "<group>"; };
+		0F93B9A81D2A4E6000C768D1 /* PressureChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressureChartViewController.swift; sourceTree = "<group>"; };
+		0F93B9AA1D2A506E00C768D1 /* QualityChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityChartViewController.swift; sourceTree = "<group>"; };
+		0FE0DE721D269CDC0041F6BB /* Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Water.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FE0DE751D269CDC0041F6BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FE0DE771D269CDC0041F6BB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		0FE0DE791D269CDC0041F6BB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0FE0DE7C1D269CDC0041F6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FE0DE7E1D269CDC0041F6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FE0DE811D269CDC0041F6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FE0DE831D269CDC0041F6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FE0DE881D269CDD0041F6BB /* WaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FE0DE8C1D269CDD0041F6BB /* WaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTests.swift; sourceTree = "<group>"; };
+		0FE0DE8E1D269CDD0041F6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FE0DE931D269CDD0041F6BB /* WaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FE0DE971D269CDD0041F6BB /* WaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterUITests.swift; sourceTree = "<group>"; };
+		0FE0DE991D269CDD0041F6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FE0DEA51D269F9F0041F6BB /* ConsumptionAnalysisChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumptionAnalysisChartView.swift; sourceTree = "<group>"; };
+		0FE0DEA61D269F9F0041F6BB /* ConsumptionReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumptionReportViewController.swift; sourceTree = "<group>"; };
+		0FE0DEA71D269F9F0041F6BB /* EntranceToGoliathRoute.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EntranceToGoliathRoute.plist; sourceTree = "<group>"; };
+		0FE0DEA81D269F9F0041F6BB /* FirstViewSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewSecond.swift; sourceTree = "<group>"; };
+		0FE0DEA91D269F9F0041F6BB /* FirstViewThird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewThird.swift; sourceTree = "<group>"; };
+		0FE0DEAA1D269F9F0041F6BB /* LeakDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeakDetailViewController.swift; sourceTree = "<group>"; };
+		0FE0DEAB1D269F9F0041F6BB /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0FE0DEAC1D269F9F0041F6BB /* LocationSensorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSensorViewController.swift; sourceTree = "<group>"; };
+		0FE0DEAD1D269F9F0041F6BB /* SystemHealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemHealthViewController.swift; sourceTree = "<group>"; };
+		0FE0DEAE1D269F9F0041F6BB /* WaterFlowDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFlowDetailsViewController.swift; sourceTree = "<group>"; };
+		0FE0DEAF1D269F9F0041F6BB /* WaterLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterLocation.swift; sourceTree = "<group>"; };
+		0FE0DEB01D269F9F0041F6BB /* WaterLocnDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterLocnDetails.swift; sourceTree = "<group>"; };
+		0FE0DEBD1D26A0EE0041F6BB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0FEA54C31D33BA99000AC72D /* PressureReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressureReportViewController.swift; sourceTree = "<group>"; };
+		250653091D3F4162001652CC /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		253D005F1D3CB9FA00809663 /* AgentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentTableViewController.swift; sourceTree = "<group>"; };
+		253D00931D3E059A00809663 /* HoneywellCondWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-Bold.ttf"; sourceTree = "<group>"; };
+		253D00941D3E059A00809663 /* HoneywellCondWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		253D00951D3E059A00809663 /* HoneywellCondWeb-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-Book.ttf"; sourceTree = "<group>"; };
+		253D00961D3E059A00809663 /* HoneywellCondWeb-BookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-BookItalic.ttf"; sourceTree = "<group>"; };
+		253D00971D3E059A00809663 /* HoneywellCondWeb-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-ExtraBold.ttf"; sourceTree = "<group>"; };
+		253D00981D3E059A00809663 /* HoneywellCondWeb-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		253D00991D3E059A00809663 /* HoneywellCondWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-Light.ttf"; sourceTree = "<group>"; };
+		253D009A1D3E059A00809663 /* HoneywellCondWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		253D009B1D3E059A00809663 /* HoneywellCondWeb-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-Medium.ttf"; sourceTree = "<group>"; };
+		253D009C1D3E059A00809663 /* HoneywellCondWeb-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellCondWeb-MediumItalic.ttf"; sourceTree = "<group>"; };
+		253D009D1D3E059A00809663 /* HoneywellSansWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-Black.ttf"; sourceTree = "<group>"; };
+		253D009E1D3E059A00809663 /* HoneywellSansWeb-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-BlackItalic.ttf"; sourceTree = "<group>"; };
+		253D009F1D3E059A00809663 /* HoneywellSansWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-Bold.ttf"; sourceTree = "<group>"; };
+		253D00A01D3E059A00809663 /* HoneywellSansWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		253D00A11D3E059A00809663 /* HoneywellSansWeb-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-Book.ttf"; sourceTree = "<group>"; };
+		253D00A21D3E059A00809663 /* HoneywellSansWeb-BookItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-BookItalic.ttf"; sourceTree = "<group>"; };
+		253D00A31D3E059A00809663 /* HoneywellSansWeb-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-ExtraBold.ttf"; sourceTree = "<group>"; };
+		253D00A41D3E059A00809663 /* HoneywellSansWeb-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		253D00A51D3E059A00809663 /* HoneywellSansWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-Light.ttf"; sourceTree = "<group>"; };
+		253D00A61D3E059A00809663 /* HoneywellSansWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		253D00A71D3E059A00809663 /* HoneywellSansWeb-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-Medium.ttf"; sourceTree = "<group>"; };
+		253D00A81D3E059A00809663 /* HoneywellSansWeb-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneywellSansWeb-MediumItalic.ttf"; sourceTree = "<group>"; };
+		253D00BF1D3E0A1D00809663 /* AgentStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentStatusViewController.swift; sourceTree = "<group>"; };
+		2543197D1D4A2A0A006E79E8 /* TicketModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicketModel.xcdatamodel; sourceTree = "<group>"; };
+		2543197F1D4A31D8006E79E8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		254319C21D530933006E79E8 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreen.png; path = ../../../Desktop/LaunchScreen.png; sourceTree = "<group>"; };
+		254319C41D530B1D006E79E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		256C89BF1D487D8F006CC900 /* DateSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionViewController.swift; sourceTree = "<group>"; };
+		2D25712CAD7FEA1DBB92AF1C /* Pods_Water.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Water.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7497645E159503205B4F2F38 /* Pods-Water.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Water.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Water/Pods-Water.debug.xcconfig"; sourceTree = "<group>"; };
+		81086F5D1D27536D00A02CDE /* NiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceButton.swift; sourceTree = "<group>"; };
+		81FF704F1D28036C006C088C /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		81FF70511D2902FB006C088C /* FlowAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlowAnalysisViewController.swift; path = ../FlowAnalysisViewController.swift; sourceTree = "<group>"; };
+		81FF70531D29058B006C088C /* FlowRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlowRate.swift; path = ../FlowRate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FE0DE6F1D269CDC0041F6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254319801D4A31D9006E79E8 /* CoreData.framework in Frameworks */,
+				0FE0DEBE1D26A0EE0041F6BB /* MapKit.framework in Frameworks */,
+				73706AC81DA8F1314E9649D1 /* Pods_Water.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FE0DE851D269CDD0041F6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FE0DE901D269CDD0041F6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE0DE691D269CDB0041F6BB = {
+			isa = PBXGroup;
+			children = (
+				2543197C1D4A2A0A006E79E8 /* TicketModel.xcdatamodeld */,
+				253D00661D3E056300809663 /* Resources */,
+				0FE0DE741D269CDC0041F6BB /* Water */,
+				0FE0DE8B1D269CDD0041F6BB /* WaterTests */,
+				0FE0DE961D269CDD0041F6BB /* WaterUITests */,
+				0FE0DE731D269CDC0041F6BB /* Products */,
+				25B0F041B482855B06B01EA3 /* Pods */,
+				FF8989A255435DD320AC9A37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0FE0DE731D269CDC0041F6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FE0DE721D269CDC0041F6BB /* Water.app */,
+				0FE0DE881D269CDD0041F6BB /* WaterTests.xctest */,
+				0FE0DE931D269CDD0041F6BB /* WaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FE0DE741D269CDC0041F6BB /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				254319C21D530933006E79E8 /* LaunchScreen.png */,
+				0FE0DE751D269CDC0041F6BB /* AppDelegate.swift */,
+				0FE0DE771D269CDC0041F6BB /* FirstViewController.swift */,
+				81FF70531D29058B006C088C /* FlowRate.swift */,
+				81FF70511D2902FB006C088C /* FlowAnalysisViewController.swift */,
+				0FEA54C31D33BA99000AC72D /* PressureReportViewController.swift */,
+				0FE0DE791D269CDC0041F6BB /* SecondViewController.swift */,
+				0FE0DE7B1D269CDC0041F6BB /* Main.storyboard */,
+				256C89BF1D487D8F006CC900 /* DateSelectionViewController.swift */,
+				250653091D3F4162001652CC /* DateViewController.swift */,
+				253D00BF1D3E0A1D00809663 /* AgentStatusViewController.swift */,
+				253D005F1D3CB9FA00809663 /* AgentTableViewController.swift */,
+				0F93B9AA1D2A506E00C768D1 /* QualityChartViewController.swift */,
+				0F93B9A81D2A4E6000C768D1 /* PressureChartViewController.swift */,
+				81FF704F1D28036C006C088C /* LeaderBoardViewController.swift */,
+				81086F5D1D27536D00A02CDE /* NiceButton.swift */,
+				0FE0DEA51D269F9F0041F6BB /* ConsumptionAnalysisChartView.swift */,
+				0FE0DEA61D269F9F0041F6BB /* ConsumptionReportViewController.swift */,
+				0FE0DEA71D269F9F0041F6BB /* EntranceToGoliathRoute.plist */,
+				0FE0DEA81D269F9F0041F6BB /* FirstViewSecond.swift */,
+				0FE0DEA91D269F9F0041F6BB /* FirstViewThird.swift */,
+				0FE0DEAA1D269F9F0041F6BB /* LeakDetailViewController.swift */,
+				0FE0DEAB1D269F9F0041F6BB /* Location.swift */,
+				0FE0DEAC1D269F9F0041F6BB /* LocationSensorViewController.swift */,
+				0FE0DEAD1D269F9F0041F6BB /* SystemHealthViewController.swift */,
+				0FE0DEAE1D269F9F0041F6BB /* WaterFlowDetailsViewController.swift */,
+				0FE0DEAF1D269F9F0041F6BB /* WaterLocation.swift */,
+				0FE0DEB01D269F9F0041F6BB /* WaterLocnDetails.swift */,
+				0FE0DE7E1D269CDC0041F6BB /* Assets.xcassets */,
+				0FE0DE801D269CDC0041F6BB /* LaunchScreen.storyboard */,
+				0FE0DE831D269CDC0041F6BB /* Info.plist */,
+				254319C41D530B1D006E79E8 /* Images.xcassets */,
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
+		0FE0DE8B1D269CDD0041F6BB /* WaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FE0DE8C1D269CDD0041F6BB /* WaterTests.swift */,
+				0FE0DE8E1D269CDD0041F6BB /* Info.plist */,
+			);
+			path = WaterTests;
+			sourceTree = "<group>";
+		};
+		0FE0DE961D269CDD0041F6BB /* WaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FE0DE971D269CDD0041F6BB /* WaterUITests.swift */,
+				0FE0DE991D269CDD0041F6BB /* Info.plist */,
+			);
+			path = WaterUITests;
+			sourceTree = "<group>";
+		};
+		253D00661D3E056300809663 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				253D00931D3E059A00809663 /* HoneywellCondWeb-Bold.ttf */,
+				253D00941D3E059A00809663 /* HoneywellCondWeb-BoldItalic.ttf */,
+				253D00951D3E059A00809663 /* HoneywellCondWeb-Book.ttf */,
+				253D00961D3E059A00809663 /* HoneywellCondWeb-BookItalic.ttf */,
+				253D00971D3E059A00809663 /* HoneywellCondWeb-ExtraBold.ttf */,
+				253D00981D3E059A00809663 /* HoneywellCondWeb-ExtraBoldItalic.ttf */,
+				253D00991D3E059A00809663 /* HoneywellCondWeb-Light.ttf */,
+				253D009A1D3E059A00809663 /* HoneywellCondWeb-LightItalic.ttf */,
+				253D009B1D3E059A00809663 /* HoneywellCondWeb-Medium.ttf */,
+				253D009C1D3E059A00809663 /* HoneywellCondWeb-MediumItalic.ttf */,
+				253D009D1D3E059A00809663 /* HoneywellSansWeb-Black.ttf */,
+				253D009E1D3E059A00809663 /* HoneywellSansWeb-BlackItalic.ttf */,
+				253D009F1D3E059A00809663 /* HoneywellSansWeb-Bold.ttf */,
+				253D00A01D3E059A00809663 /* HoneywellSansWeb-BoldItalic.ttf */,
+				253D00A11D3E059A00809663 /* HoneywellSansWeb-Book.ttf */,
+				253D00A21D3E059A00809663 /* HoneywellSansWeb-BookItalic.ttf */,
+				253D00A31D3E059A00809663 /* HoneywellSansWeb-ExtraBold.ttf */,
+				253D00A41D3E059A00809663 /* HoneywellSansWeb-ExtraBoldItalic.ttf */,
+				253D00A51D3E059A00809663 /* HoneywellSansWeb-Light.ttf */,
+				253D00A61D3E059A00809663 /* HoneywellSansWeb-LightItalic.ttf */,
+				253D00A71D3E059A00809663 /* HoneywellSansWeb-Medium.ttf */,
+				253D00A81D3E059A00809663 /* HoneywellSansWeb-MediumItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		25B0F041B482855B06B01EA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7497645E159503205B4F2F38 /* Pods-Water.debug.xcconfig */,
+				019A4D8880374858EF09F204 /* Pods-Water.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF8989A255435DD320AC9A37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2543197F1D4A31D8006E79E8 /* CoreData.framework */,
+				0FE0DEBD1D26A0EE0041F6BB /* MapKit.framework */,
+				2D25712CAD7FEA1DBB92AF1C /* Pods_Water.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FE0DE711D269CDC0041F6BB /* Water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE0DE9C1D269CDD0041F6BB /* Build configuration list for PBXNativeTarget "Water" */;
+			buildPhases = (
+				F29DC9825E562E88ADC92429 /* [CP] Check Pods Manifest.lock */,
+				0FE0DE6E1D269CDC0041F6BB /* Sources */,
+				0FE0DE6F1D269CDC0041F6BB /* Frameworks */,
+				0FE0DE701D269CDC0041F6BB /* Resources */,
+				96C8F30AAEEE634CCE24B2A1 /* [CP] Embed Pods Frameworks */,
+				AD81C4CCF754349A762C46E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Water;
+			productName = Water;
+			productReference = 0FE0DE721D269CDC0041F6BB /* Water.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FE0DE871D269CDD0041F6BB /* WaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE0DE9F1D269CDD0041F6BB /* Build configuration list for PBXNativeTarget "WaterTests" */;
+			buildPhases = (
+				0FE0DE841D269CDD0041F6BB /* Sources */,
+				0FE0DE851D269CDD0041F6BB /* Frameworks */,
+				0FE0DE861D269CDD0041F6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FE0DE8A1D269CDD0041F6BB /* PBXTargetDependency */,
+			);
+			name = WaterTests;
+			productName = WaterTests;
+			productReference = 0FE0DE881D269CDD0041F6BB /* WaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FE0DE921D269CDD0041F6BB /* WaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE0DEA21D269CDD0041F6BB /* Build configuration list for PBXNativeTarget "WaterUITests" */;
+			buildPhases = (
+				0FE0DE8F1D269CDD0041F6BB /* Sources */,
+				0FE0DE901D269CDD0041F6BB /* Frameworks */,
+				0FE0DE911D269CDD0041F6BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FE0DE951D269CDD0041F6BB /* PBXTargetDependency */,
+			);
+			name = WaterUITests;
+			productName = WaterUITests;
+			productReference = 0FE0DE931D269CDD0041F6BB /* WaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FE0DE6A1D269CDB0041F6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Honeywell;
+				TargetAttributes = {
+					0FE0DE711D269CDC0041F6BB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5NU2F87VCF;
+					};
+					0FE0DE871D269CDD0041F6BB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0FE0DE711D269CDC0041F6BB;
+					};
+					0FE0DE921D269CDD0041F6BB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0FE0DE711D269CDC0041F6BB;
+					};
+				};
+			};
+			buildConfigurationList = 0FE0DE6D1D269CDB0041F6BB /* Build configuration list for PBXProject "Water" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FE0DE691D269CDB0041F6BB;
+			productRefGroup = 0FE0DE731D269CDC0041F6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FE0DE711D269CDC0041F6BB /* Water */,
+				0FE0DE871D269CDD0041F6BB /* WaterTests */,
+				0FE0DE921D269CDD0041F6BB /* WaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FE0DE701D269CDC0041F6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253D00A91D3E05A500809663 /* HoneywellCondWeb-Bold.ttf in Resources */,
+				253D00AA1D3E05A500809663 /* HoneywellCondWeb-BoldItalic.ttf in Resources */,
+				253D00AB1D3E05A500809663 /* HoneywellCondWeb-Book.ttf in Resources */,
+				253D00AC1D3E05A500809663 /* HoneywellCondWeb-BookItalic.ttf in Resources */,
+				253D00AD1D3E05A500809663 /* HoneywellCondWeb-ExtraBold.ttf in Resources */,
+				253D00AE1D3E05A500809663 /* HoneywellCondWeb-ExtraBoldItalic.ttf in Resources */,
+				254319C31D530933006E79E8 /* LaunchScreen.png in Resources */,
+				253D00AF1D3E05A500809663 /* HoneywellCondWeb-Light.ttf in Resources */,
+				253D00B01D3E05A500809663 /* HoneywellCondWeb-LightItalic.ttf in Resources */,
+				254319C51D530B1D006E79E8 /* Images.xcassets in Resources */,
+				253D00B11D3E05A500809663 /* HoneywellCondWeb-Medium.ttf in Resources */,
+				253D00B21D3E05A500809663 /* HoneywellCondWeb-MediumItalic.ttf in Resources */,
+				253D00B31D3E05A500809663 /* HoneywellSansWeb-Black.ttf in Resources */,
+				253D00B41D3E05A500809663 /* HoneywellSansWeb-BlackItalic.ttf in Resources */,
+				253D00B51D3E05A500809663 /* HoneywellSansWeb-Bold.ttf in Resources */,
+				253D00B61D3E05A500809663 /* HoneywellSansWeb-BoldItalic.ttf in Resources */,
+				253D00B71D3E05A500809663 /* HoneywellSansWeb-Book.ttf in Resources */,
+				253D00B81D3E05A500809663 /* HoneywellSansWeb-BookItalic.ttf in Resources */,
+				253D00B91D3E05A500809663 /* HoneywellSansWeb-ExtraBold.ttf in Resources */,
+				253D00BA1D3E05A500809663 /* HoneywellSansWeb-ExtraBoldItalic.ttf in Resources */,
+				253D00BB1D3E05A500809663 /* HoneywellSansWeb-Light.ttf in Resources */,
+				253D00BC1D3E05A500809663 /* HoneywellSansWeb-LightItalic.ttf in Resources */,
+				253D00BD1D3E05A500809663 /* HoneywellSansWeb-Medium.ttf in Resources */,
+				253D00BE1D3E05A500809663 /* HoneywellSansWeb-MediumItalic.ttf in Resources */,
+				0FE0DEB31D269F9F0041F6BB /* EntranceToGoliathRoute.plist in Resources */,
+				0FE0DE821D269CDC0041F6BB /* LaunchScreen.storyboard in Resources */,
+				0FE0DE7F1D269CDC0041F6BB /* Assets.xcassets in Resources */,
+				0FE0DE7D1D269CDC0041F6BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FE0DE861D269CDD0041F6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FE0DE911D269CDD0041F6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96C8F30AAEEE634CCE24B2A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Water/Pods-Water-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD81C4CCF754349A762C46E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Water/Pods-Water-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29DC9825E562E88ADC92429 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FE0DE6E1D269CDC0041F6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253D00C01D3E0A1D00809663 /* AgentStatusViewController.swift in Sources */,
+				2543197E1D4A2A0A006E79E8 /* TicketModel.xcdatamodeld in Sources */,
+				81086F5E1D27536D00A02CDE /* NiceButton.swift in Sources */,
+				81FF70541D29058B006C088C /* FlowRate.swift in Sources */,
+				256C89C01D487D8F006CC900 /* DateSelectionViewController.swift in Sources */,
+				0FE0DEB61D269F9F0041F6BB /* LeakDetailViewController.swift in Sources */,
+				0FE0DEB21D269F9F0041F6BB /* ConsumptionReportViewController.swift in Sources */,
+				81FF70521D2902FB006C088C /* FlowAnalysisViewController.swift in Sources */,
+				0FE0DEB41D269F9F0041F6BB /* FirstViewSecond.swift in Sources */,
+				0FEA54C41D33BA99000AC72D /* PressureReportViewController.swift in Sources */,
+				253D00601D3CB9FA00809663 /* AgentTableViewController.swift in Sources */,
+				0FE0DE7A1D269CDC0041F6BB /* SecondViewController.swift in Sources */,
+				0FE0DEB91D269F9F0041F6BB /* SystemHealthViewController.swift in Sources */,
+				0F93B9A91D2A4E6000C768D1 /* PressureChartViewController.swift in Sources */,
+				0FE0DEBB1D269F9F0041F6BB /* WaterLocation.swift in Sources */,
+				0F93B9AB1D2A506E00C768D1 /* QualityChartViewController.swift in Sources */,
+				0FE0DEBC1D269F9F0041F6BB /* WaterLocnDetails.swift in Sources */,
+				0FE0DEB71D269F9F0041F6BB /* Location.swift in Sources */,
+				2506530A1D3F4162001652CC /* DateViewController.swift in Sources */,
+				0FE0DEB11D269F9F0041F6BB /* ConsumptionAnalysisChartView.swift in Sources */,
+				0FE0DEBA1D269F9F0041F6BB /* WaterFlowDetailsViewController.swift in Sources */,
+				0FE0DE761D269CDC0041F6BB /* AppDelegate.swift in Sources */,
+				0FE0DEB81D269F9F0041F6BB /* LocationSensorViewController.swift in Sources */,
+				0FE0DEB51D269F9F0041F6BB /* FirstViewThird.swift in Sources */,
+				81FF70501D28036C006C088C /* LeaderBoardViewController.swift in Sources */,
+				0FE0DE781D269CDC0041F6BB /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FE0DE841D269CDD0041F6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE0DE8D1D269CDD0041F6BB /* WaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FE0DE8F1D269CDD0041F6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE0DE981D269CDD0041F6BB /* WaterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FE0DE8A1D269CDD0041F6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FE0DE711D269CDC0041F6BB /* Water */;
+			targetProxy = 0FE0DE891D269CDD0041F6BB /* PBXContainerItemProxy */;
+		};
+		0FE0DE951D269CDD0041F6BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FE0DE711D269CDC0041F6BB /* Water */;
+			targetProxy = 0FE0DE941D269CDD0041F6BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FE0DE7B1D269CDC0041F6BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FE0DE7C1D269CDC0041F6BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FE0DE801D269CDC0041F6BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FE0DE811D269CDC0041F6BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FE0DE9A1D269CDD0041F6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FE0DE9B1D269CDD0041F6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FE0DE9D1D269CDD0041F6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7497645E159503205B4F2F38 /* Pods-Water.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Water/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeywell.water;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0FE0DE9E1D269CDD0041F6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019A4D8880374858EF09F204 /* Pods-Water.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Water/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeywell.water;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0FE0DEA01D269CDD0041F6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.WaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water.app/Water";
+			};
+			name = Debug;
+		};
+		0FE0DEA11D269CDD0041F6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.WaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water.app/Water";
+			};
+			name = Release;
+		};
+		0FE0DEA31D269CDD0041F6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.WaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Water;
+			};
+			name = Debug;
+		};
+		0FE0DEA41D269CDD0041F6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Honeywell.WaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Water;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FE0DE6D1D269CDB0041F6BB /* Build configuration list for PBXProject "Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FE0DE9A1D269CDD0041F6BB /* Debug */,
+				0FE0DE9B1D269CDD0041F6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FE0DE9C1D269CDD0041F6BB /* Build configuration list for PBXNativeTarget "Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FE0DE9D1D269CDD0041F6BB /* Debug */,
+				0FE0DE9E1D269CDD0041F6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FE0DE9F1D269CDD0041F6BB /* Build configuration list for PBXNativeTarget "WaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FE0DEA01D269CDD0041F6BB /* Debug */,
+				0FE0DEA11D269CDD0041F6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FE0DEA21D269CDD0041F6BB /* Build configuration list for PBXNativeTarget "WaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FE0DEA31D269CDD0041F6BB /* Debug */,
+				0FE0DEA41D269CDD0041F6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2543197C1D4A2A0A006E79E8 /* TicketModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2543197D1D4A2A0A006E79E8 /* TicketModel.xcdatamodel */,
+			);
+			currentVersion = 2543197D1D4A2A0A006E79E8 /* TicketModel.xcdatamodel */;
+			path = TicketModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0FE0DE6A1D269CDB0041F6BB /* Project object */;
+}
